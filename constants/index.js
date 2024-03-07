@@ -13,7 +13,9 @@ export const sidebarLinks = [
     label: "Home",
   },
   {
-    icon: <AddPhotoAlternateOutlined sx={{ color: "white", fontSize: "26px" }} />,
+    icon: (
+      <AddPhotoAlternateOutlined sx={{ color: "white", fontSize: "26px" }} />
+    ),
     route: "/create-post",
     label: "Create Post",
   },
@@ -52,11 +54,11 @@ export const pageTitles = [
     title: "Edit Post",
   },
   {
-    url: "/search", 
+    url: "/search",
     title: "Search",
   },
   {
-    url: "/search", 
+    url: "/search",
     title: "Search",
   },
   {
@@ -66,7 +68,7 @@ export const pageTitles = [
   {
     url: "/liked-posts",
     title: "Liked Posts",
-  }
+  },
 ];
 
 export const tabs = [
